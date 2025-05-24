@@ -33,5 +33,6 @@
 
 5. Multiple Condition критериумот за условот
 if (item.getPrice() > 300 || item.getDiscount() > 0 || item.getQuantity() > 10)
+треба да се изврсат најмалку 2^3=8 бидејки има 3 ставки во условот
 на сликата е прикжано решението со овој критериум за условот. потребно е само една вреднос да e true  за целиот услов да е true.
 ![image](https://github.com/user-attachments/assets/83968d8e-63f7-4606-b3f3-749438e8dd5d)

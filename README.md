@@ -26,7 +26,12 @@
 ![image](https://github.com/user-attachments/assets/60e5f651-8ab6-4aa9-9a23-1723256d043c)
 
 петти:Item со price > 300 (активација на sum -= 30), и невалидна картичка 
+
 ![image](https://github.com/user-attachments/assets/7d1f9e07-de4a-4b81-a247-d0bc6a68ba0f)
 
  ![image](https://github.com/user-attachments/assets/22a2d49a-3871-44f6-9edd-2f1f2d949b37)
 
+5. Multiple Condition критериумот за условот
+if (item.getPrice() > 300 || item.getDiscount() > 0 || item.getQuantity() > 10)
+на сликата е прикжано решението со овој критериум за условот. потребно е само една вреднос да e true  за целиот услов да е true.
+![image](https://github.com/user-attachments/assets/83968d8e-63f7-4606-b3f3-749438e8dd5d)
